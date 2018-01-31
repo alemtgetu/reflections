@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+- the hidden .git directory is created (that is the file that stores all history of the versions)
+- initializing the repo is what make the directory a repository, otherwise its just a directory
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+- the staging are is where all the files that will be committed is stored, the working directory contains all the files in the repo
+- it gives us the ability to commit same logical chages at once

@@ -1,0 +1,30 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+- instead of going looking the files line by line the diff command showed me the differnces in the files by pointing to the lines and the before and after changes
+- this helped me to find the different more effeciently
+- it will be very helpful to find difference in codes with hundereds or thousands of lines
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+- by looking at previous versions of code we can easly find causes and problems incase of bugs
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+- manual commit gives the user the flexibility to commit in the changes when they want that could be seen as a pro and a con beacuse it leaves room for user error; users may commit early or after big chang
+- automatically saved changes has a dvantage of keep all the changes made periodically, but their could also be lots of meaningless changes saved
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+- when you are working on a project that involves codes saved in different files, its important that all the files in a repo its important to create a new version for all the files in the repo when commiting a code because the codes in the files relates to eachother
+- but in the case of Googledocs there is no relation between the files that would need to be tracked
+
+How can you use the commands git log and git diff to view the history of files?
+- by using git log you can view all the commits(versions) made in a file
+- by using git diff you can compare to versions and see what differences between the two are
+
+How might using version control make you more confident to make changes that could break something?
+- with version control you can always go backward on forward through your versions and make changes. 
+- if the change you made breaks your code you can go back to the previous version and check where it actually caused the fault
+
+Now that you have your workspace set up, what do you want to try using Git for?
+- Not sure yet, dont know what i can do with it yet
+
+What happens when you initialize a repository? Why do you need to do it?
+- the hidden .git directory is created (that is the file that stores all history of the versions)
+- initializing the repo is what make the directory a repository, otherwise its just a directory

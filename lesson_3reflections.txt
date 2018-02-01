@@ -9,3 +9,12 @@ Describe the differences between forks, clones, and branches. When would you use
 - fork is when copying a(another user's) repo on the remote
 - cone is copying a repo from the remote to local 
 - branch copy of an entire commit and a branch will has its own commits
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+- when we add new changes to local repo and commit it will tell us if we are ahead or before
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+- you may colaborate using email exchanges
+- other centralized version control like TFVC
+- It would be harder to colaborate using emails because it requires attaching codes in the communication

@@ -18,3 +18,9 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 - you may colaborate using email exchanges
 - other centralized version control like TFVC
 - It would be harder to colaborate using emails because it requires attaching codes in the communication
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+- you would just make change on the master when you think the change belongs to the master
+- if the change you are make relates to the branch u will make the change on the branch
+- it will keep your code clean with one master and multiple branches with you can make changes to and test
